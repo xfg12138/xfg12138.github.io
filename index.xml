@@ -6,9 +6,28 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 15:43:56 +0800</lastBuildDate>
     
 	<atom:link href="https://Lww-biu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>测试中</title>
+      <link>https://Lww-biu.github.io/post/xfg/</link>
+      <pubDate>Mon, 27 Apr 2020 15:43:56 +0800</pubDate>
+      
+      <guid>https://Lww-biu.github.io/post/xfg/</guid>
+      <description>#测试学习中。</description>
+    </item>
+    
+    <item>
+      <title>你好，世界！</title>
+      <link>https://Lww-biu.github.io/post/1/</link>
+      <pubDate>Mon, 27 Apr 2020 14:04:19 +0800</pubDate>
+      
+      <guid>https://Lww-biu.github.io/post/1/</guid>
+      <description>你好，世界！ </description>
+    </item>
     
   </channel>
 </rss>
