@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | 忐忑小妖</title>
-    <link>https://Lww-biu.github.io/courses/</link>
-      <atom:link href="https://Lww-biu.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>xfg12138.github.io/courses/</link>
+      <atom:link href="xfg12138.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Courses</title>
-      <link>https://Lww-biu.github.io/courses/</link>
+      <link>xfg12138.github.io/courses/</link>
     </image>
     
   </channel>
