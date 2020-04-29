@@ -1,3541 +1,643 @@
 <!DOCTYPE html>
-<html lang="zh">
-
+<html lang="en-us">
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.8.0">
-
-  
-
-  
-  
-  
-  
-  
+    <title>Icarus</title>
+    <meta name="generator" content="Hugo 0.69.2" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="John Doe">
+    
+      <meta name="description" content="">
     
     
+      <link href="https://xfg12138.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Icarus" />
+      <link href="https://xfg12138.github.io/index.xml" rel="feed" type="application/rss+xml" title="Icarus" />
     
-  
-  
-
-  <meta name="author" content="Nelson Bighetti">
-
-  
-  
-  
+    <link rel="canonical" href="https://xfg12138.github.io/"/>
+    <link rel="icon" href="https://xfg12138.github.io/favicon.ico">
+    <link rel="apple-touch-icon" href="https://xfg12138.github.io/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://xfg12138.github.io/css/style.css">
+    <link rel="stylesheet" href="https://xfg12138.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://xfg12138.github.io/css/monokai.css">
+    <link rel="stylesheet" href="https://xfg12138.github.io/fancybox/jquery.fancybox.css">
     
-  
-  <meta name="description" content="Professor of Artificial Intelligence">
-
-  
-  <link rel="alternate" hreflang="zh" href="xfg12138.github.io/">
-
-  
-
-
-  
-  
-  
-  <meta name="theme-color" content="#2962ff">
-  
-
-  
-  
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="Icarus" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://xfg12138.github.io/" />
+<meta property="og:updated_time" content="2020-04-29T14:25:55+08:00" />
 
     
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
+    <meta itemprop="name" content="Icarus">
+<meta itemprop="description" content="">
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Icarus"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@spf13"/>
 
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
     
 
     
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
-  
-
-  
-  
-  
-  
-  <link rel="stylesheet" href="/xfg12138.github.io/css/academic.css">
-
-  
-
-
-
-
-  
-
-
-  
-  <link rel="alternate" href="xfg12138.github.io/index.xml" type="application/rss+xml" title="忐忑小妖">
-  
-
-  <link rel="manifest" href="/xfg12138.github.io/index.webmanifest">
-  <link rel="icon" type="image/png" href="/xfg12138.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/xfg12138.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
-
-  <link rel="canonical" href="xfg12138.github.io/">
-
-  
-  
-  
-  
-  
-    
-    
-  
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="og:site_name" content="忐忑小妖">
-  <meta property="og:url" content="xfg12138.github.io/">
-  <meta property="og:title" content="忐忑小妖">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
-  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="zh">
-  
-    <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;01:00">
-  
-
-  
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "xfg12138.github.io?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "xfg12138.github.io"
-}
-</script>
-
-
-  
-
-
-  
-
-
-  
-
-
-
-
-
-  <title>忐忑小妖</title>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
+<body>
+<div class="container">
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
 
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://xfg12138.github.io/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://xfg12138.github.io/css/images/logo.png')"></i>
+          
+          <span class="site-title">Icarus</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="https://xfg12138.github.io/">Home</a>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
 
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>搜索</h1>
+          
+
+          
+          
+          
+          
+          <a class="main-nav-link" href="https://xfg12138.github.io/tags/">Tags</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://xfg12138.github.io/categories/">Categories</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://xfg12138.github.io/about/">About</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://xfg12138.github.io/mypost/">mypost</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://xfg12138.github.io/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="https://xfg12138.github.io/" />
+         </form>
         </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="https://xfg12138.github.io/">Home</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <td><a class="main-nav-link" href="https://xfg12138.github.io/tags/">Tags</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://xfg12138.github.io/categories/">Categories</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://xfg12138.github.io/about/">About</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://xfg12138.github.io/mypost/">mypost</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://xfg12138.github.io/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+      <img id="avatar" src="https://www.gravatar.com/avatar/4fca794da0cf08804f99048d3c8b39c1?s=100&d=identicon"/>
+      
+      <h2 id="name">John Doe</h2>
+      <h3 id="title">Blogger - Programmer - Gopher</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>Earth</span>
+      
+          <a id="follow" href="https://github.com/digitalcraftsman">
+              Follow
+          </a>
+      
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        4
+        <span>Posts</span>
       </div>
-
-      <div id="search-box">
+      <div class="article-info-block">
         
-        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+          5
         
+        <span>
+            Tags
+        </span>
       </div>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/digitalcraftsman" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
 
-    </section>
-    <section class="section-search-results">
 
-      <div id="search-hits">
-        
-      </div>
 
-    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//twitter.com/spf13" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+          <td><a href="https://xfg12138.github.io/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
   </div>
 </aside>
 
-
-  
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
-
     
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/xfg12138.github.io/">忐忑小妖</a>
+
+    <section id="main">
+    
+    
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+        </a>
+
+        <header class="article-header">
+    <a href="https://xfg12138.github.io/post/">
+    <h1 class="article-title" itemprop="name">
+        Posts
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-05-20 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+            &middot;
+            0
+            words
+            &middot;
+            0
+            minute read
+        </div>
+        
+        
+
+        
     </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>
+                
+            </p>
+            <p class="article-more-link">
+                <a href="https://xfg12138.github.io/post/">
+                    Read more
+                </a>
+            </p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://xfg12138.github.io/post/" data-id="" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://xfg12138.github.io/post/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
     
 
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
 
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/xfg12138.github.io/">忐忑小妖</a>
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
     </div>
-    
+</article>
 
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
-      
-      <ul class="navbar-nav d-md-inline-flex">
-        
+<nav id="page-nav">
 
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/xfg12138.github.io/#hero"><span>Demo</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/xfg12138.github.io/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/xfg12138.github.io/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/xfg12138.github.io/#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/xfg12138.github.io/courses/"><span>Courses</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/xfg12138.github.io/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-      </ul>
-    </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-
-    </ul>
-
-  </div>
 </nav>
 
 
-  
+    </section>
 
-
-
-
-
-
-
-
-
-
-
-<span class="js-widget-page d-none"></span>
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-
-  
+   	
+    	<aside id="sidebar">
     
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="hero" class="home-section wg-hero dark  " style="background-image: linear-gradient(#4bb4e3, #2b94c3);" >
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-md-6 order-md-1 text-center text-md-left">
-
-
-    <h1 class="hero-title">
-      Academic
-    </h1>
-
-    
-    <div class="hero-lead"><p><strong>The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)</strong></p>
-<p>Build <strong>Anything</strong> with Widgets</p>
-<p><span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span></p>
-</div>
-    
-
-    
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-    <p class="cta-btns">
-      <a href="https://sourcethemes.com/academic/docs/install/" target="_blank" rel="noopener" class="btn btn-light btn-lg"><i class="fas fa-download pr-1" aria-hidden="true"></i>Get Started</a>
-
-      
-      
-        
-        
-        
-        
-          
-        
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener" class="hero-cta-alt pl-4">View Documentation <i class="fas fa-angle-right"></i></a>
-      
-    </p>
-    
-
-    
-    
-    <p class="hero-note text-muted mb-0">
-      <a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>
-    </p>
-    
-
-  
-  
-  </div>
-  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
-    <img src="/xfg12138.github.io/img/hero-academic.png" alt="">
-  </div>
-</div>
-
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-    
-    
-      
-    
-    
-    
-    
-      
-      
-    
-    
-      
-      
-    
-  
-
-  
-    
-    
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="demo" class="home-section wg-blank dark  bg-image parallax " style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(&#39;xfg12138.github.io/img/headers/bubbles-wide.jpg&#39;);background-size: cover;background-position: center;padding: 20px 0 20px 0;" >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-lg-12">
-      <h1>Demos</h1>
-      
-      <p>Welcome to the <strong>personal demo</strong> of Academic. Other demos available include:</p>
-<ul>
-<li>
-<a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><strong>Project Demo</strong> (Academic&rsquo;s actual site)</a></li>
-</ul>
-<p><strong>Over 100,000 
-<a href="https://sourcethemes.com/academic/#expo" target="_blank" rel="noopener">Amazing Websites</a> have Already Been Built with Academic</strong></p>
-<p><strong>
-<a href="https://sourcethemes.com/academic/docs/install/" target="_blank" rel="noopener">Join</a> the Most Empowered Hugo Community</strong></p>
-<div class="alert alert-note">
-  <div>
-    <p>This homepage section is an example of adding <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/">elements</a> to the <a href="https://sourcethemes.com/academic/docs/widgets/"><em>Blank</em> widget</a>.</p>
-<p>Backgrounds can be applied to any section. Here, the <em>background</em> option is set give an <em>image parallax</em> effect.</p>
-  </div>
-</div>
-
-    </div>
-  
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="about" class="home-section wg-about   "  >
-    <div class="container">
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle" src="/xfg12138.github.io/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
-      
-
-      <div class="portrait-title">
-        <h2>Nelson Bighetti</h2>
-        <h3>Professor of Artificial Intelligence</h3>
-
-        
-        <h3>
-          
-          <span>Stanford University</span>
-          
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/xfg12138.github.io/#contact" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/gcushen" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    <h1>Biography</h1>
-
-    <p>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>兴趣爱好</h3>
-        <ul class="ul-interests">
-          
-          <li>Artificial Intelligence</li>
-          
-          <li>Computational Linguistics</li>
-          
-          <li>Information Retrieval</li>
-          
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Recents
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://xfg12138.github.io/2017/05/20/markdown-cheat-sheet/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://xfg12138.github.io/2017/05/20/markdown-cheat-sheet/" class="title">Markdown Cheat Sheet</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-05-20 12:10:51 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://xfg12138.github.io/2017/05/20/using-the-gallery-shortcode/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://xfg12138.github.io/2017/05/20/using-the-gallery-shortcode/" class="title">Using the gallery shortcode</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-05-20 12:00:23 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://xfg12138.github.io/2017/05/20/formulas-with-mathjax/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    
+                    <p class="item-title"><a href="https://xfg12138.github.io/2017/05/20/formulas-with-mathjax/" class="title">Formulas with MathJax</a></p>
+                    <p class="item-date">
+                        <time datetime="2017-05-20 11:58:06 &#43;0200 &#43;0200" itemprop="datePublished">2017-05-20</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://xfg12138.github.io/2015/10/02/how-to-add-pages-to-the-menu/" class="thumbnail">
+                    
+                        <span style="background-image:url(https://xfg12138.github.io/banners/placeholder.png)" alt="Icarus" class="thumbnail-image"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://xfg12138.github.io/categories/programming">
+                        programming
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://xfg12138.github.io/2015/10/02/how-to-add-pages-to-the-menu/" class="title">How to add pages to the menu</a></p>
+                    <p class="item-date">
+                        <time datetime="2015-10-02 21:49:20 &#43;0200 &#43;0200" itemprop="datePublished">2015-10-02</time>
+                    </p>
+                </div>
+            </li>
+            
         </ul>
-      </div>
-      
+    </div>
+</div>
 
-      
-      <div class="col-md-7">
-        <h3>教育经历</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Artificial Intelligence, 2012</p>
-              <p class="institution">Stanford University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MEng in Artificial Intelligence, 2009</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Artificial Intelligence, 2008</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
-            </div>
-          </li>
-          
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://xfg12138.github.io/categories/programming">
+                    programming
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
         </ul>
-      </div>
-      
-
     </div>
-  </div>
 </div>
 
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="skills" class="home-section wg-featurette   "  >
-    <div class="container">
-      
-
-
-<div class="row featurette">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Skills</h1>
-    
-  </div>
-  
-
-  
-
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
-    <h3>R</h3>
-    <p>90%</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
-    <h3>Statistics</h3>
-    <p>100%</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fas fa-camera-retro"></i></div>
-    <h3>Photography</h3>
-    <p>10%</p>
-  </div>
-  
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="experience" class="home-section wg-experience   "  >
-    <div class="container">
-      
 
 
 
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Experience</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
     
 
-    
-    
-    
-    <div class="row experience">
-      
-      <div class="col-auto text-center flex-column d-none d-sm-flex">
-        <div class="row h-50">
-          <div class="col ">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
-        <div class="m-2">
-          <span class="badge badge-pill border exp-fill">&nbsp;</span>
-        </div>
-        <div class="row h-50">
-          <div class="col border-right">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
-      </div>
-      
-      <div class="col py-2">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">CEO</h4>
-            <h4 class="card-title exp-company text-muted my-0">GenCoin</h4>
-            <div class="text-muted exp-meta">
-              Jan 2017 –
-              
-                现在
-              
-              
-                <span class="middot-divider"></span>
-                <span>California</span>
-              
-            </div>
-            <div class="card-text"><p>Responsibilities include:</p>
-<ul>
-<li>Analysing</li>
-<li>Modelling</li>
-<li>Deploying</li>
-</ul>
-</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="row experience">
-      
-      <div class="col-auto text-center flex-column d-none d-sm-flex">
-        <div class="row h-50">
-          <div class="col border-right">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
-        <div class="m-2">
-          <span class="badge badge-pill border ">&nbsp;</span>
-        </div>
-        <div class="row h-50">
-          <div class="col ">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
-      </div>
-      
-      <div class="col py-2">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">Professor</h4>
-            <h4 class="card-title exp-company text-muted my-0">University X</h4>
-            <div class="text-muted exp-meta">
-              Jan 2016 –
-              
-                Dec 2016
-              
-              
-                <span class="middot-divider"></span>
-                <span>California</span>
-              
-            </div>
-            <div class="card-text">Taught electronic engineering and researched semiconductor physics.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-  </div>
-</div>
 
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="accomplishments" class="home-section wg-accomplishments   "  >
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Accomplish­ments</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Neural Networks and Deep Learning</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
-
-            Oct 2018
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tags
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
             
-          </div>
-
-          
-
-          
-            <a class="card-link" href="https://www.coursera.org" target="_blank" rel="noopener">
-              查看证书
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Blockchain Fundamentals</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.edx.org" target="_blank" rel="noopener">edX</a><span class="middot-divider"></span>
-
-            Mar 2018
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://xfg12138.github.io/tags/golang">
+                    golang
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
-          </div>
-
-          
-            <div class="card-text">Formulated informed blockchain models, hypotheses, and use cases.</div>
-          
-
-          
-            <a class="card-link" href="https://www.edx.org" target="_blank" rel="noopener">
-              查看证书
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Object-Oriented Programming in R: S3 and R6 Course</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a><span class="middot-divider"></span>
-
-            Jul 2017
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://xfg12138.github.io/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
-            – Dec 2017
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://xfg12138.github.io/tags/markdown">
+                    markdown
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
             
-          </div>
-
-          
-
-          
-            <a class="card-link" href="https://www.datacamp.com" target="_blank" rel="noopener">
-              查看证书
-            </a>
-          
-        </div>
-      </div>
-    
-    
-  </div>
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://xfg12138.github.io/tags/programming">
+                    programming
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://xfg12138.github.io/tags/theme">
+                    theme
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
 </div>
 
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="posts" class="home-section wg-pages   "  >
-    <div class="container">
-      
 
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Posts</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
 
     
 
-    
-      
-        
 
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/post/writing-technical-content/" >Writing technical content in Academic</a>
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
     </h3>
-
-    
-    <div class="article-style">
-      Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
-Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.
+    <div class="widget tagcloud">
+        
+        
+        <a href="https://xfg12138.github.io/tags/golang" style="font-size: 12px;">golang</a>
+        
+        
+        <a href="https://xfg12138.github.io/tags/hugo" style="font-size: 12px;">hugo</a>
+        
+        
+        <a href="https://xfg12138.github.io/tags/markdown" style="font-size: 12px;">markdown</a>
+        
+        
+        <a href="https://xfg12138.github.io/tags/programming" style="font-size: 12px;">programming</a>
+        
+        
+        <a href="https://xfg12138.github.io/tags/theme" style="font-size: 12px;">theme</a>
+        
     </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Jul 12, 2019
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    4 分钟阅读时长
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/post/writing-technical-content/" >
-      <img src="/xfg12138.github.io/post/writing-technical-content/featured_huc72159e0fc0d14b85f60d34436a630f0_266353_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/post/jupyter/" >Display Jupyter Notebooks with Academic</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Learn how to blog in Academic using Jupyter notebooks
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="xfg12138.github.io/authors/admin/">Nelson Bighetti</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          最近更新于
-      
-    
-    Sep 5, 2019
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 分钟阅读时长
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/post/jupyter/" >
-      <img src="/xfg12138.github.io/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_150x0_resize_lanczos_2.png" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/post/getting-started/" >Academic: the website builder for Hugo</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Create a beautifully simple website in under 10 minutes.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="xfg12138.github.io/authors/admin/">Nelson Bighetti</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          最近更新于
-      
-    
-    Apr 17, 2019
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    1 分钟阅读时长
-  </span>
-  
-
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="xfg12138.github.io/categories/demo/">Demo</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/post/getting-started/" >
-      <img src="/xfg12138.github.io/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="projects" class="home-section wg-portfolio   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-
-    <h1>Projects</h1>
-    
-
-  </div>
-  <div class="col-12 col-lg-8">
-
-
-
-    
-
-    
-
-      
-
-      
-      
-      
-      
-        
-      
-
-      <span class="d-none default-project-filter">*</span>
-
-      
-      
-      <div class="project-toolbar">
-        <div class="project-filters">
-          <div class="btn-toolbar">
-            <div class="btn-group flex-wrap">
-              
-                
-                
-                
-                  
-                
-                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Deep-Learning" class="btn btn-primary btn-lg">Deep Learning</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Demo" class="btn btn-primary btn-lg">Other</a>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    
-
-    <div class="isotope projects-container js-layout-masonry ">
-      
-
-        
-        
-        
-          
-          
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Demo">
-  <div class="card">
-    
-    
-    <a href="http://example.org" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/xfg12138.github.io/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="http://example.org" target="_blank" rel="noopener">External Project</a></h4>
-      
-      <div class="article-style">
-        <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-
-        
-        
-        
-
-        
-          
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Deep-Learning">
-  <div class="card">
-    
-    
-    <a href="xfg12138.github.io/project/internal-project/"  class="card-image hover-overlay">
-      <img src="/xfg12138.github.io/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="xfg12138.github.io/project/internal-project/" >Internal Project</a></h4>
-      
-      <div class="article-style">
-        <p>An example of using the in-built project page.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-        
-
-      
-    </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="gallery" class="home-section wg-blank   "  >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-12 col-lg-4 section-heading">
-      <h1>Gallery</h1>
-      
-    </div>
-    <div class="col-12 col-lg-8">
-      
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="gallery">
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-1950s.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-apogee.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-coffee-playfair.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-dark.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-default.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-forest.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-ocean.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-    
-    
-    
-    
-    
-  <a data-fancybox="gallery-gallery" href="/xfg12138.github.io/home/gallery/gallery/theme-strawberry.png" >
-  <img data-src="/xfg12138.github.io/home/gallery/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png" class="lazyload" alt="" width="124" height="190">
-  </a>
-  
-
-  
-</div>
-
-    </div>
-  
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="talks" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent &amp; Upcoming Talks</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/talk/example/" >Example Talk</a>
-    </h3>
-
-    
-    <div class="article-style">
-      An example talk using Academic&rsquo;s Markdown slides feature.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Source Themes HQ</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/project/internal-project/">
-    项目
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/slides/example/" target="_blank">
-    演示文稿
-  </a>
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/talk/example/" >
-      <img src="/xfg12138.github.io/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="featured" class="home-section wg-featured   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="card-simple">
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span><a href="xfg12138.github.io/authors/admin/">Nelson Bighetti</a></span>, <span><a href="xfg12138.github.io/authors/robert-ford/">Robert Ford</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    July 2013
-  </span>
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
-    
-      In <em>STC</em>
-    
-  </span>
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-  
-  
-  
-  
-  <a href="xfg12138.github.io/publication/conference-paper/">
-      <img src="/xfg12138.github.io/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" alt="">
-  </a>
-  
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="xfg12138.github.io/publication/conference-paper/">An example conference paper</a>
-  </h3>
-
-  
-  <div class="article-style">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
-  </div>
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/xfg12138.github.io/publication/conference-paper/cite.bib">
-  引用
-</button>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  代码
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  数据集
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/project/internal-project/">
-    项目
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  海报
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/slides/example/" target="_blank">
-    演示文稿
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  视频
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  源文档
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
-
-  </div>
-  
-
-</div>
-
-      
-    
-
-  
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="publications" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="xfg12138.github.io/publication/">filtering publications</a>.
-  </div>
 </div>
 
 
-    
-      
-        
 
 
 
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/publication/preprint/" >An example preprint / working paper</a>
-    </h3>
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
 
     
-    <div class="article-style">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="xfg12138.github.io/authors/admin/">Nelson Bighetti</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  代码
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  数据集
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/project/internal-project/">
-    项目
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  海报
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/slides/example/" target="_blank">
-    演示文稿
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  视频
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  源文档
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/publication/preprint/" >
-      <img src="/xfg12138.github.io/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
+	</div>
 </div>
 
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/publication/journal-article/" >An example journal article</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020
+      Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="xfg12138.github.io/authors/admin/">Nelson Bighetti</a></span>, <span><a href="xfg12138.github.io/authors/robert-ford/">Robert Ford</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/xfg12138.github.io/publication/journal-article/cite.bib">
-  引用
-</button>
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/slides/example/" target="_blank">
-    演示文稿
-  </a>
-  
-
-
-
-
-
-
-    </div>
-    
-
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/publication/journal-article/" >
-      <img src="/xfg12138.github.io/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="xfg12138.github.io/publication/conference-paper/" >An example conference paper</a>
-    </h3>
-
-    
-    <div class="article-style">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span><a href="xfg12138.github.io/authors/admin/">Nelson Bighetti</a></span>, <span><a href="xfg12138.github.io/authors/robert-ford/">Robert Ford</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/xfg12138.github.io/publication/conference-paper/cite.bib">
-  引用
-</button>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  代码
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  数据集
-</a>
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/project/internal-project/">
-    项目
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  海报
-</a>
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="xfg12138.github.io/slides/example/" target="_blank">
-    演示文稿
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  视频
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/xfg12138.github.io/#" target="_blank" rel="noopener">
-  源文档
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    
-    Custom Link
-  </a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="xfg12138.github.io/publication/conference-paper/" >
-      <img src="/xfg12138.github.io/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q90_lanczos.jpg" alt="">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="tags" class="home-section wg-tag-cloud   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Popular Topics</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-
-      
-      
-      
-      
-      
-      
-
-      <div class="tag-cloud">
-        
-          
-          
-          
-          <a href="xfg12138.github.io/tags/academic/" style="font-size:0.7rem">Academic</a>
-        
-          
-          
-          
-          <a href="xfg12138.github.io/tags/deep-learning/" style="font-size:0.7rem">Deep Learning</a>
-        
-          
-          
-          
-          <a href="xfg12138.github.io/tags/demo/" style="font-size:0.7rem">Demo</a>
-        
-          
-          
-          
-          <a href="xfg12138.github.io/tags/source-themes/" style="font-size:1.7302256254687514rem">Source Themes</a>
-        
-      </div>
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="contact" class="home-section wg-contact   "  >
-    <div class="container">
-      
-
-
-
-
-
-<div class="row contact-widget">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Contact</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-
-    
-    
-      
-      
-    
-
-    <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/test@example.org">
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputName">姓名</label>
-          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="姓名" required>
-        </div>
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputEmail">邮箱</label>
-          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="邮箱" required>
-        </div>
-        <div class="form-group">
-          <label class="sr-only" for="inputMessage">信息</label>
-          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="信息" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-outline-primary px-3 py-2">发送</button>
-      </form>
-    </div>
-    
-
-    <ul class="fa-ul">
-
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone"><a href="tel:888%20888%2088%2088">888 888 88 88</a></span>
-      </li>
-      
-
-      
-      
-        
-        <li>
-          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">450 Serra Mall, Stanford, CA 94305</span>
-        </li>
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-        <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
-      </li>
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-        <span>Monday 10:00 to 13:00<br>Wednesday 09:00 to 10:00</span>
-      </li>
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
-        <a href="https://calendly.com" target="_blank" rel="noopener">预约</a>
-      </li>
-      
-
-      
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-        <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      <li>
-        <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
-        <a href="skype:echo123?call" >Skype Me</a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <i class="fa-li fab fa-keybase fa-2x" aria-hidden="true"></i>
-        <a href="https://keybase.io/" target="_blank" rel="noopener">Chat on Keybase</a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <i class="fa-li fas fa-comments fa-2x" aria-hidden="true"></i>
-        <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on Forum</a>
-      </li>
-      
-
-    </ul>
-
-    
-    <div class="d-none">
-      <input id="map-provider" value="2">
-      <input id="map-lat" value="37.4275">
-      <input id="map-lng" value="-122.1697">
-      <input id="map-dir" value="450 Serra Mall, Stanford, CA 94305">
-      <input id="map-zoom" value="15">
-      <input id="map-api-key" value="">
-    </div>
-    <div id="map"></div>
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-
-
-      
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
-        
-      
-
-    
-
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
-    
-
-    
-    
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    <script>const isSiteThemeDark = false;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/xfg12138.github.io/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
-      const content_type = {
-        'post': "文章",
-        'project': "项目",
-        'publication' : "出版物",
-        'talk' : "演讲"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/xfg12138.github.io/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
-
-    
-
-
-
-
-
-
-  
-  
-  <div class="container">
-    <footer class="site-footer">
-  
-  <p class="powered-by">
-    
-      <a href="xfg12138.github.io/privacy/">Privacy Policy</a>
-    
-    
-       &middot; 
-      <a href="xfg12138.github.io/terms/">Terms</a>
-    
-  </p>
-  
-
-  <p class="powered-by">
-    
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
 </footer>
 
-  </div>
-  
 
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">引用</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> 复制
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> 下载
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
+<script src="https://xfg12138.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://xfg12138.github.io/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
 
 </body>
 </html>
