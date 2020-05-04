@@ -51,7 +51,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-    background-color: cyan;
+    background-color: rgb(11, 95, 46);
     color: #fff;
 }
 
@@ -187,7 +187,7 @@ article .title {
 
 .callout a:hover {
   background-color: #fff;
-  color: var(--callouctcolor);
+  color: rgb(11, 95, 46);
 }
 
 .site-description {
@@ -197,12 +197,9 @@ justify-content: space-between;
 .tags li::before{
   content: "🏷 ";
 }
-/* .tags a{
-  border-bottom: 3px solid var(--maincolor); 
-} */
 .tags a:hover{
   color:white;
-  background-color: cyan; 
+  background-color:rgb(11, 95, 46); 
 }
 svg{
   max-height: 15px;
