@@ -46,11 +46,11 @@ blockquote {
 }
 
 a {
-  color: rgb(43, 172, 144);
+  color: rgb(11, 158, 243);
   text-decoration: none;
 }
 a:hover {
-    background-color:rgb(52, 170, 164);
+    background-color:rgb(119, 230, 245);
     color: #fff;
 }
 
@@ -142,7 +142,9 @@ header {
 }
 
 header .main {
-  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
@@ -155,9 +157,14 @@ footer {
 
 /* Common */
 .title h1 {
+  text-align: center;
   margin-bottom: 0;
+  font-size: 25px;
 }
-
+.page-title{
+  text-align: center;
+  font-size: 25px;
+}
 time {
   color: grey;
 }
@@ -186,7 +193,7 @@ article .title {
 
 .callout a:hover {
   background-color: #fff;
-  color: rgb(52, 170, 164);
+  color: rgb(119, 230, 245);
 }
 
 .site-description {
@@ -196,9 +203,10 @@ justify-content: space-between;
 .tags li::before{
   content: "🏷 ";
 }
+
 .tags a:hover{
   color:white;
-  background-color:rgb(52, 170, 164); 
+  background-color:rgb(119, 230, 245); 
 }
 svg{
   max-height: 15px;
@@ -213,4 +221,14 @@ svg{
     border-radius: 4px;
     margin-left: 6px;
     background-color: #f9f2f4;
+}
+.h11{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+.main_name{
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
 }
