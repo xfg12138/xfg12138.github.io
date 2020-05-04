@@ -156,10 +156,13 @@ footer {
 }
 
 /* Common */
-.title h1 {
+.titles {
   text-align: center;
   margin-bottom: 0;
   font-size: 25px;
+}
+.metas{
+  text-align: center;
 }
 .page-title{
   text-align: center;
@@ -213,14 +216,6 @@ svg{
 }
 .soc:hover{
   color: white;
-}
-.draft-label{ 
-    color: var(--bordercl);
-    text-decoration: none;
-    padding: 2px 4px;
-    border-radius: 4px;
-    margin-left: 6px;
-    background-color: #f9f2f4;
 }
 .h11{
   text-align: center;

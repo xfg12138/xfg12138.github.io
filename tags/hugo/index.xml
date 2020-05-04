@@ -6,19 +6,19 @@
     <description>Recent content in hugo on xfg12138</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Oct 2015 21:49:20 +0200</lastBuildDate>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Mon, 04 May 2020 22:55:05 +0800</lastBuildDate>
     
 	<atom:link href="https://xfg12138.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How to add pages to the menu</title>
-      <link>https://xfg12138.github.io/2015/10/02/how-to-add-pages-to-the-menu/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Page1</title>
+      <link>https://xfg12138.github.io/posts/page1/</link>
+      <pubDate>Mon, 04 May 2020 22:55:05 +0800</pubDate>
       
-      <guid>https://xfg12138.github.io/2015/10/02/how-to-add-pages-to-the-menu/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot; </description>
+      <guid>https://xfg12138.github.io/posts/page1/</guid>
+      <description>第一篇boke dier disan </description>
     </item>
     
   </channel>
