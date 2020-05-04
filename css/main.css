@@ -47,11 +47,11 @@ blockquote {
 
 a {
   /* border-bottom: 3px solid var(--maincolor); */
-  color: rgb(38, 124, 81);
+  color: rgb(43, 172, 144);
   text-decoration: none;
 }
 a:hover {
-    background-color: var(--hovercolor);
+    background-color: cyan;
     color: #fff;
 }
 
@@ -202,7 +202,7 @@ justify-content: space-between;
 } */
 .tags a:hover{
   color:white;
-  background-color: var(--hovercolor); 
+  background-color: cyan; 
 }
 svg{
   max-height: 15px;
