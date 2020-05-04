@@ -44,7 +44,6 @@ h6 {
 } 
 
 a {
-  border-bottom: 3px solid var(--darkMaincolor);
   color: inherit;
   text-decoration: none;
 }
