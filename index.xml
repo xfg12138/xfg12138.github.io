@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 22:55:05 +0800</lastBuildDate>
     
 	<atom:link href="https://xfg12138.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,15 +18,15 @@
       <pubDate>Mon, 04 May 2020 22:55:05 +0800</pubDate>
       
       <guid>https://xfg12138.github.io/posts/page1/</guid>
-      <description>第一篇boke dier disan </description>
+      <description>第一篇boke dier disan 实验时间</description>
     </item>
     
     <item>
       <title>关于</title>
-      <link>https://xfg12138.github.io/about/</link>
+      <link>https://xfg12138.github.io/about/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://xfg12138.github.io/about/</guid>
+      <guid>https://xfg12138.github.io/about/about/</guid>
       <description>还没有来得及写。。。。。。</description>
     </item>
     
