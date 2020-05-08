@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Fri, 08 May 2020 10:53:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 22:55:05 +0800</lastBuildDate>
     
 	<atom:link href="https://xfg12138.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Xfg</title>
-      <link>https://xfg12138.github.io/posts/xfg/</link>
-      <pubDate>Fri, 08 May 2020 10:53:43 +0800</pubDate>
-      
-      <guid>https://xfg12138.github.io/posts/xfg/</guid>
-      <description>xfg xxx xzzz </description>
-    </item>
     
     <item>
       <title>Page1</title>
@@ -28,6 +19,15 @@
       
       <guid>https://xfg12138.github.io/posts/page1/</guid>
       <description>第一篇boke dier disan 实验时间</description>
+    </item>
+    
+    <item>
+      <title>Xfg</title>
+      <link>https://xfg12138.github.io/posts/xfg/</link>
+      <pubDate>Wed, 08 May 2019 10:53:43 +0800</pubDate>
+      
+      <guid>https://xfg12138.github.io/posts/xfg/</guid>
+      <description>xfg xxx xzzz </description>
     </item>
     
     <item>
