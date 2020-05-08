@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xfg12138</title>
+    <link>https://xfg12138.github.io/</link>
+    <description>Recent content on xfg12138</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© Athul</copyright>
+    <lastBuildDate>Fri, 08 May 2020 10:53:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://xfg12138.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Xfg</title>
+      <link>https://xfg12138.github.io/posts/xfg/</link>
+      <pubDate>Fri, 08 May 2020 10:53:43 +0800</pubDate>
+      
+      <guid>https://xfg12138.github.io/posts/xfg/</guid>
+      <description>xfg xxx xzzz </description>
+    </item>
+    
+    <item>
+      <title>Page1</title>
+      <link>https://xfg12138.github.io/posts/page1/</link>
+      <pubDate>Mon, 04 May 2020 22:55:05 +0800</pubDate>
+      
+      <guid>https://xfg12138.github.io/posts/page1/</guid>
+      <description>第一篇boke dier disan 实验时间</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://xfg12138.github.io/about/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xfg12138.github.io/about/about/</guid>
+      <description>还没有来得及写。。。。。。</description>
+    </item>
+    
+    <item>
+      <title>忐忑小妖</title>
+      <link>https://xfg12138.github.io/homepage/home/</link>
+      <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
+      
+      <guid>https://xfg12138.github.io/homepage/home/</guid>
+      <description>随便说说 不经意间看到折腾博客的，所以激起了三分钟的兴趣，所以自己也来搞搞，也不知道回到哪一步，随缘。</description>
+    </item>
+    
+  </channel>
+</rss>
