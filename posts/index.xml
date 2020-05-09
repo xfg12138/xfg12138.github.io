@@ -7,27 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Mon, 04 May 2020 22:55:05 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 19:13:03 +0800</lastBuildDate>
     
 	<atom:link href="https://xfg12138.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Page1</title>
-      <link>https://xfg12138.github.io/posts/page1/</link>
-      <pubDate>Mon, 04 May 2020 22:55:05 +0800</pubDate>
+      <title>第一篇博客</title>
+      <link>https://xfg12138.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 09 May 2020 19:13:03 +0800</pubDate>
       
-      <guid>https://xfg12138.github.io/posts/page1/</guid>
-      <description>第一篇boke dier disan 实验时间</description>
-    </item>
-    
-    <item>
-      <title>Xfg</title>
-      <link>https://xfg12138.github.io/posts/xfg/</link>
-      <pubDate>Wed, 08 May 2019 10:53:43 +0800</pubDate>
-      
-      <guid>https://xfg12138.github.io/posts/xfg/</guid>
-      <description>xfg xxx xzzz </description>
+      <guid>https://xfg12138.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>只会一些基础的html与css语法，当打开主题时傻眼了，有点蒙圈。然后自己一点一点改，目前还算满意，以后可能还会改，也有可能不会改了，就这样用。（目前还是看不懂语法，只会仿照别人的修改，感觉好废。）</description>
     </item>
     
   </channel>

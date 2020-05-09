@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap');
 /* Markdown */
 :root{
---maincolor: red;
+--maincolor: rgb(122, 236, 208);
 --bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
 --hovercolor:navy;
@@ -14,7 +14,7 @@ html {
   font-size: 15px;
   line-height: 1.6em;
 }
-body{
+body{red
   display: block;
   margin: 8px;
 }
@@ -23,7 +23,7 @@ body{
 }
 
 ::selection {
-  background: var(--maincolor);
+  background-color: rgb(126, 241, 178);
   color: #fff;
 }
 

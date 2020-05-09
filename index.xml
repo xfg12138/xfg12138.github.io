@@ -7,27 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© Athul</copyright>
-    <lastBuildDate>Mon, 04 May 2020 22:55:05 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 19:13:03 +0800</lastBuildDate>
     
 	<atom:link href="https://xfg12138.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Page1</title>
-      <link>https://xfg12138.github.io/posts/page1/</link>
-      <pubDate>Mon, 04 May 2020 22:55:05 +0800</pubDate>
+      <title>第一篇博客</title>
+      <link>https://xfg12138.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 09 May 2020 19:13:03 +0800</pubDate>
       
-      <guid>https://xfg12138.github.io/posts/page1/</guid>
-      <description>第一篇boke dier disan 实验时间</description>
-    </item>
-    
-    <item>
-      <title>Xfg</title>
-      <link>https://xfg12138.github.io/posts/xfg/</link>
-      <pubDate>Wed, 08 May 2019 10:53:43 +0800</pubDate>
-      
-      <guid>https://xfg12138.github.io/posts/xfg/</guid>
-      <description>xfg xxx xzzz </description>
+      <guid>https://xfg12138.github.io/posts/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>只会一些基础的html与css语法，当打开主题时傻眼了，有点蒙圈。然后自己一点一点改，目前还算满意，以后可能还会改，也有可能不会改了，就这样用。（目前还是看不懂语法，只会仿照别人的修改，感觉好废。）</description>
     </item>
     
     <item>
@@ -36,7 +27,7 @@
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xfg12138.github.io/about/about/</guid>
-      <description>还没有来得及写。。。。。。</description>
+      <description>关于主题  主题名称archie 主题下载链接  对于主题的个人修改  删去、修改界面的一些要素。原主题界面（页脚的Archie Theme也可以进入 ） 添加了哔哩哔哩的联系方式，（qq，Email（测试中））修改了地址，应该也是可以使用的 修改了《关于》《首页》界面 通过hugo自带的方式给文章添加了目录 提供了两种评论功能，博主可以选择使用哪种 。。。目前感觉就这些  将要干的事  美化（把有些提示字符用图标替换之类的。。。） 还有最不死心的搜索功能，难受 探究一下主题自带的夜间？（暗黑？）模式  </description>
     </item>
     
     <item>
@@ -45,7 +36,7 @@
       <pubDate>Sat, 20 May 2017 11:58:06 +0200</pubDate>
       
       <guid>https://xfg12138.github.io/homepage/home/</guid>
-      <description>随便说说 不经意间看到折腾博客的，所以激起了三分钟的兴趣，所以自己也来搞搞，也不知道回到哪一步，随缘。</description>
+      <description>随便说说 不经意间看到折腾博客的，起了三分钟的兴趣，所以自己也来搞搞，也不知道会走到哪一步，随缘。</description>
     </item>
     
   </channel>
