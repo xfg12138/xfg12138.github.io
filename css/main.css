@@ -262,7 +262,7 @@ svg{
     position: absolute;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:0 20px;
     width: 200px;
     overflow: hidden;
   }
@@ -275,6 +275,9 @@ svg{
     text-decoration: none;
   }
   .zzzz:active .headerul ul{
+    display: block;
+  }
+  .zzzz:hover .headerul ul{
     display: block;
   }
 }
