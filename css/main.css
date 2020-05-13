@@ -61,11 +61,6 @@ ul {
 ul li {
   text-indent: -2ch;
 }
-ul li::before {
-  content: '* ';
-  font-weight: bold;
-}
-
 /* Images */
 img {
   border: 3px solid #ececec;
@@ -81,12 +76,6 @@ figure {
 
 figure img {
   max-height: 500px;
-}
-
-@media screen and (min-width: 600px) {
-  figure {
-    padding: 0 40px;
-  }
 }
 
 figure h4 {
@@ -195,8 +184,7 @@ article .title {
 }
 
 .callout a:hover {
-  background-color: #fff;
-  color: rgb(119, 230, 245);
+  background-color: rgb(0, 0, 0);
 }
 
 .site-description {
@@ -226,4 +214,47 @@ svg{
   text-align: center;
   font-style: italic;
   font-size: 30px;
+}
+
+
+@media screen and (min-width: 600px) {
+  figure {
+    padding: 0 40px;
+  }
+  .headerul li:nth-child(1){
+    display: none;
+  }
+  .headerul ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    overflow: hidden;
+  }
+  .headerul li{
+    float: left;
+  }
+  .headerul li a{
+    text-align: center;
+    display: block;
+    height: 29px;
+    font-size: 30px;
+    padding: 0 16px;
+    text-decoration: none;
+  }
+  .headerul a:hover{
+    background-color:rgb(119, 230, 245);
+    color: #fff;
+  }
+  .headerul li:nth-child(5){
+    float: right;
+  }
+}
+@media screen and (max-width:600px) {
+  .headerul ul:nth-child(2){
+    display: none;
+  }
+  .headerul ul:nth-child(1):active .headerul ul:nth-child(2){
+    display: block;
+  }
 }

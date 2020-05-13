@@ -87,3 +87,8 @@ a:hover {
   color: var(--darkMaincolor);
   background-color: blue;
 }
+.headerul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
