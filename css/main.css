@@ -217,11 +217,11 @@ svg{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   figure {
     padding: 0 40px;
   }
-  .headerul li:nth-child(1){
+  .caidan{
     display: none;
   }
   .headerul ul{
@@ -250,11 +250,16 @@ svg{
     float: right;
   }
 }
-@media screen and (max-width:600px) {
-  .headerul ul:nth-child(2){
-    display: none;
+@media screen and (max-width:800px) {
+  .zzzz{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 30px;
   }
   .headerul ul{
+    display: none;
+    position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -269,7 +274,7 @@ svg{
     padding: 0 16px;
     text-decoration: none;
   }
-  .caidan:active .headerul ul:nth-child(2){
+  .zzzz:active .headerul ul{
     display: block;
   }
 }
