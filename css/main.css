@@ -254,7 +254,22 @@ svg{
   .headerul ul:nth-child(2){
     display: none;
   }
-  .headerul ul:nth-child(1):active .headerul ul:nth-child(2){
+  .headerul ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+  }
+  .headerul li a{
+    text-align: center;
+    display: block;
+    height: 29px;
+    font-size: 30px;
+    padding: 0 16px;
+    text-decoration: none;
+  }
+  .caidan:active .headerul ul:nth-child(2){
     display: block;
   }
 }
