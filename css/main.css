@@ -262,16 +262,10 @@ svg{
 }
 @media screen and (max-width:800px) {
   .zzzz{
-    position: relative;
+    position: absolute;
     display: inline-block;
     padding: 10px 50px;
     font-size: 30px;
-  }
-  .caidan{
-    position: relative;
-    margin:0;
-    padding: 10px 50px;
-
   }
   .headerul ul{
     display: none;
