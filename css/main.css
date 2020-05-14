@@ -254,28 +254,29 @@ svg{
   .zzzz{
     position: relative;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 50px;
     font-size: 30px;
   }
   .headerul ul{
     display: none;
-    position: absolute;
     list-style-type: none;
     margin: 0;
-    padding:0 20px;
-    width: 200px;
-    overflow: hidden;
+    padding:15px 0;
+    background-color: #000000;
+    width: 190px;
+    position: fixed;
+    left: 0;
+    top: 57PX;
+    height: 100%;
+    overflow: auto;
   }
   .headerul li a{
     text-align: center;
     display: block;
-    height: 29px;
+    height: 40px;
     font-size: 30px;
     padding: 0 16px;
     text-decoration: none;
-  }
-  .zzzz:active .headerul ul{
-    display: block;
   }
   .zzzz:hover .headerul ul{
     display: block;
