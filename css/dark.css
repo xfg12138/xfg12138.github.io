@@ -49,22 +49,18 @@ a {
 }
 a:hover {
   background-color: cyan;
-  color: black;
+  color: rgb(5, 226, 255);
 }
 
 .site-description a {
   color: #ddd;
 }
 .site-description a:hover {
-  color: black;
-}
-
-.tags a {
-  border-bottom: 3px solid var(--darkMaincolor);
+  color: rgb(5, 226, 255);
 }
 .tags a:hover {
   background-color: cyan;
-  color: black;
+  color: rgb(5, 226, 255);
 }
 
 .site-title a {
@@ -115,7 +111,7 @@ a:hover {
   .headerul a:hover{
     background-color: transparent;
     font-size: 40px;
-    color: rgb(0, 0, 0);
+    color: rgb(5, 226, 255);
   }
   .headerul li:nth-child(5){
     float: right;
@@ -125,8 +121,14 @@ a:hover {
   .zzzz{
     position: relative;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 20px;
     font-size: 30px;
+  }
+  .caidan{
+    position: relative;
+    margin:0;
+    padding: 10px 50px;
+
   }
   .headerul ul{
     display: none;

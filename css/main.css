@@ -194,7 +194,8 @@ article .title {
 }
 
 .callout a:hover {
-  background-color: rgb(119, 230, 245);
+  background-color: transparent;
+  color: rgb(5, 226, 255);
 }
 
 .site-description {
@@ -265,6 +266,12 @@ svg{
     display: inline-block;
     padding: 10px 50px;
     font-size: 30px;
+  }
+  .caidan{
+    position: relative;
+    margin:0;
+    padding: 10px 50px;
+
   }
   .headerul ul{
     display: none;
