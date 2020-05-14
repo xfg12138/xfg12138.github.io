@@ -245,9 +245,9 @@ svg{
   .headerul li a{
     text-align: center;
     display: block;
-    height: 29px;
+    height: 30px;
     font-size: 30px;
-    padding: 0 16px;
+    padding: 0 17px;
     text-decoration: none;
   }
   .headerul a:hover{
@@ -285,6 +285,10 @@ svg{
     font-size: 30px;
     padding: 0 16px;
     text-decoration: none;
+  }
+  .headerul li a:hover{
+    background-color:rgb(119, 230, 245);
+    color: #fff;
   }
   .zzzz:hover .headerul ul{
     display: block;
