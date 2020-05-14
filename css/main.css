@@ -53,6 +53,14 @@ a:hover {
     background-color:rgb(119, 230, 245);
     color: #fff;
 }
+.top{
+  position:fixed;
+  right: 20px; 
+  bottom: 50%;
+}
+.top:hover{
+  background-color: rgb(255, 255, 255);
+}
 
 ul {
   list-style: none;
