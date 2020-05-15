@@ -145,7 +145,7 @@ a:hover {
     list-style-type: none;
     margin: 0;
     padding:15px 0;
-    background-color: #000000;
+    background-color:rgba(78, 150, 114, 0.5);
     width: 190px;
     position: fixed;
     left: 0;
