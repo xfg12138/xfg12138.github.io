@@ -99,8 +99,8 @@ a:hover {
   }
   .headerul ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px 0;
+    padding: 10px 0;
     width: 800px;
     overflow: hidden;
   }
@@ -137,8 +137,11 @@ a:hover {
   .zzzz{
     position: absolute;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 4px;
     font-size: 30px;
+  }
+  .caidan{
+    color: rgb(255, 255, 255);
   }
   .headerul ul{
     display: none;
@@ -146,7 +149,7 @@ a:hover {
     margin: 0;
     padding:15px 0;
     background-color:rgba(78, 150, 114, 0.5);
-    width: 190px;
+    width: 130px;
     position: fixed;
     left: 0;
     top: 57PX;

@@ -155,15 +155,12 @@ footer {
 /* Common */
 .titles {
   text-align: center;
+  margin-top: 80px;
   margin-bottom: 0;
   font-size: 25px;
 }
 .metas{
   text-align: center;
-}
-.page-title{
-  text-align: center;
-  font-size: 25px;
 }
 time {
   color: grey;
@@ -216,27 +213,47 @@ svg{
 .soc:hover{
   color: white;
 }
-.h11{
-  text-align: center;
-  font-style: italic;
-  font-size: 30px;
-}
+
 .main_name{
   text-align: center;
   font-style: italic;
   font-size: 30px;
 }
 @media screen and (min-width: 800px) {
+  .page-title{
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .h11{
+    margin-top: 0;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .h12{
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+  }
   figure {
     padding: 0 40px;
   }
   .caidan{
     display: none;
   }
-  .headerul ul{
-    list-style-type: none;
+  .headera{
     margin: 0;
     padding: 0;
+    font-size: 30px;
+  }
+  .headerul ul{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px 0;
     width: 800px;
     overflow: hidden;
   }
@@ -256,7 +273,7 @@ svg{
     font-size: 40px;
     color: rgb(5, 226, 255);
   }
-  .headerul li:nth-child(5){
+  .headerul li:nth-child(4){
     float: right;
   }
   .cd {
@@ -270,11 +287,43 @@ svg{
   }
 }
 @media screen and (max-width:800px) {
+  .tagh1{
+    margin-top: 70px;
+  }
+  .page-title{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .h11{
+    margin-top: 70px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+  }
+  .h12{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+  }
   .zzzz{
     position: absolute;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 4px;
     font-size: 30px;
+  }
+  .headera{
+    float: left;
+    font-size: 30px;
+    position: fixed;
+    right: 30px;
+    top: 23px;
+  }
+  .caidan{
+    float: left;
   }
   .headerul ul{
     display: none;
@@ -282,7 +331,7 @@ svg{
     margin: 0;
     padding:15px 0;
     background-color: rgba(78, 150, 114, 0.5);
-    width: 190px;
+    width: 130px;
     position: fixed;
     left: 0;
     top: 57PX;
@@ -304,6 +353,9 @@ svg{
   }
   .zzzz:hover .headerul ul{
     display: block;
+  }
+  .zzzz:hover .caidan {
+    display: none;
   }
   .cd {
     width: 150px;
