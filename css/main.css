@@ -58,8 +58,9 @@ a:hover {
   right: 20px; 
   bottom: 50%;
 }
-.top:hover{
+.top a:hover{
   background-color: transparent;
+  color: rgb(119, 230, 245);
 }
 
 ul {
