@@ -132,6 +132,14 @@ a:hover {
     margin-top: 0;
     overflow: hidden;
   }
+  .toc{
+    width: 150px;
+		border: 1px solid rgb(119, 224, 119);
+		background-color: rgba(250, 225, 0, 0.5);
+		position: fixed;
+		top: 120px;
+		right: 15%;
+  }
 }
 @media screen and (max-width:800px) {
   .zzzz{
