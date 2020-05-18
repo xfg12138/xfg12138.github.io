@@ -285,12 +285,11 @@ svg{
     border: 1px solid rgb(0, 0, 0);
     margin: auto;
     margin-top: 0;
-    overflow: hidden;
   }
   .toc{
-    width: 150px;
+    width: 180px;
 		border: 1px solid rgb(119, 224, 119);
-		background-color: rgba(255, 230, 0, 0.5);
+    background-color: rgb(255, 230, 0);
 		position: fixed;
 		top: 120px;
 		right: 15%;
@@ -299,9 +298,9 @@ svg{
 
 @media screen and (max-width:800px) {
   .toc{
-    width: 150px;
+    width: 180px;
 		border: 1px solid rgb(119, 224, 119);
-		background-color: rgba(255, 230, 0, 0.5);
+		background-color: rgb(255, 230, 0);
 		position: fixed;
 		top: 100px;
 		right: 0;
@@ -395,7 +394,6 @@ svg{
     border: 1px solid rgb(0, 0, 0);
     margin: auto;
     margin-top: 0;
-    overflow: hidden;
   }
 }
 .i1{
