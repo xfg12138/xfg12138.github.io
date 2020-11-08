@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on xfg12138</title>
-    <link>https://xfg12138.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on xfg12138</description>
+    <title>hugo on KeepIt</title>
+    <link>https://example.com/tags/hugo/</link>
+    <description>Recent content in hugo on KeepIt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>© Athul</copyright>
-    <lastBuildDate>Tue, 12 May 2020 19:13:03 +0800</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://xfg12138.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>第二篇博客</title>
-      <link>https://xfg12138.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Tue, 12 May 2020 19:13:03 +0800</pubDate>
+      <title>Getting Started with Hugo</title>
+      <link>https://example.com/2014/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://xfg12138.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;只会一些基础的html与css语法，当打开主题时傻眼了，有点蒙圈。然后自己一点一点改，目前还算满意，以后可能还会改，也有可能不会改了，就这样用。（目前还是看不懂语法，只会仿照别人的修改，感觉好废。）&lt;/p&gt;</description>
+      <guid>https://example.com/2014/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>
